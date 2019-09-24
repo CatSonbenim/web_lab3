@@ -1,0 +1,22 @@
+.roof{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+
+.roof__part1{
+	height: 0px;
+	width: 100px;
+	border-bottom: 200px solid #404859;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+}
+
+.roof__part2{
+	height: 0px;
+	width: 222px;
+	border-bottom: 40px solid #2f3135;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}

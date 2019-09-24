@@ -1,0 +1,72 @@
+.wall{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+.wall__wall{
+	height: 0px;
+	width: 220px;
+	border-bottom: 400px solid #404859;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+}
+
+
+.wall__center{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: -400px;
+}
+
+.wall__nose{
+	height: 0px;
+	width: 20px;
+	border-bottom: 200px solid #2f3135;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	margin: 0px -20px;
+}
+.wall__window1{
+	width: 60px;
+	height: 60px;
+	border: 10px solid #2f3135;
+	background: #ABBBE1;
+	border-radius: 50px;
+
+}
+
+.wall__window2{
+	width: 60px;
+	height: 60px;
+	border: 10px solid #2f3135;
+	background: #ABBBE1;
+	border-radius: 50px;
+}
+
+.wall__door{
+	width: 100px;
+	height: 150px;
+	background: #4F4023;
+	border-radius: 50px;
+	border-bottom: 50px solid #FFFFFF;
+	margin-top: 50px;
+}
+
+.wall__ear1{
+	height: 200px;
+	width: 50px;
+	transform: skew(-7deg);
+	background: #2f3135;
+	margin-right: 17px;
+}
+
+.wall__ear2{
+	height: 200px;
+	width: 50px;
+	transform: skew(7deg);
+	background: #2f3135;
+	margin-left: 17px;
+}
